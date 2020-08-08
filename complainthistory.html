@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complaint History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <style>@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+          font-family: 'Josefin Sans', sans-serif;
+        }
+        
+        body{
+           background-color: #f3f5f9;
+        }
+        
+        
+        .wrapper{
+          display: flex;
+          position: relative;
+        }
+        
+        .wrapper .sidebar{
+          width: 270px;
+          height: 100%;
+          background: #070222;
+          padding: 2px 0px;
+          position: fixed;
+        }
+        
+        
+        .wrapper .sidebar h2{
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        
+        .wrapper .sidebar ul li{
+          padding: 15px;
+          border-bottom: 4px solid #cecae0;
+          border-bottom: 4px solid rgba(224, 218, 218, 0.05);
+          border-top: 4px solid rgba(250, 250, 250, 0.05);
+        }    
+        
+        .wrapper .sidebar ul li a{
+          color: #ffffff;
+          display: block;
+          font-size: 20px;
+        }
+        
+        .wrapper .sidebar ul li a .fas{
+          width: 30px;
+          font-size: 20px;
+        }
+        
+        .wrapper .sidebar ul li:hover{
+          background-color: #3a3946;
+        }
+            
+        .wrapper .sidebar ul li:hover a{
+          color: #fff;
+        }
+        
+        
+        .wrapper .main_content{
+          width: 100%;
+          margin-left: 270px;
+        }
+        
+        .wrapper .main_content .header{
+          padding: 20px;
+          background: rgb(245, 184, 54);
+          color: #000000;
+          border-bottom: 1px solid #000000;
+          height: 60px;
+          position: centre;
+          text-align: left;
+          font-size: 30px;
+          
+        }
+        
+        .wrapper .main_content .info{
+          margin: 10px;
+          color: #000000;
+          line-height: 15px;
+          position: relative;
+          font-size: 25px;
+          text-align: center;
+          padding: 20px;
+        }
+        table {
+  border-collapse: collapse;
+  border-spacing: 1;
+  width: 100%;
+  border: 6px solid rgb(233, 146, 46);
+}
+
+th, td {
+  text-align: left;
+  padding: 9px;
+}
+      
+        </style>
+</head>
+
+
+<div class="wrapper">
+    <div class="sidebar">
+        <img src="Oorja (1)1.png" height="30%" width="90%" style="padding-left: 25px;" position="top"/>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i>Dashboard</a></li>
+            <li><a href="activecomplaints.html"><i class="fas fa-exclamation-triangle"></i>Active Complaints</a></li>
+            <li><a href="complainthistory.html"><i class="fas fa-history"></i>Complaint History</a></li>
+            <li><a href="consumerdata.html"><i class="fas fa-address-card"></i>Consumer Data</a></li>
+            <li><a href="divisiondetails.html"><i class="fas fa-users"></i>Division Details</a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+            
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header"><b>Division Office</b></div>  
+        <div class="info">
+          <p><b>Complaint History</b></p>
+            </div>
+            <div style="overflow-x:auto;">
+              <table>
+                <tr>
+                  <th>Complaint</th>
+                  <th>Location</th>
+                  <th>Recovery Time</th>
+                  <th>Registered by</th>
+                </tr>
+                <tr>
+                  <td>Line Breakdown</td>
+                  <td>Pattom</td>
+                  <td>2hr</td>
+                  <td>9879878943</td>
+                </tr>
+                <tr>
+                  <td>No Supply</td>
+                  <td>Pongumood</td>
+                  <td>1hr</td>
+                  <td>9055667204</td>
+                </tr>
+                <tr>
+                  <td>Low Voltage</td>
+                  <td>Paruthipara</td>
+                  <td>30min</td>
+                  <td>9879070345</td>
+                </tr>
+                <tr>
+                  <td>Spark on Line</td>
+                  <td>Ulloor</td>
+                  <td>30min</td>
+                  <td>9896932904</td>
+                </tr>
+                <tr>
+                  <td>Cable fault</td>
+                  <td>Kesavadasapuram</td>
+                  <td>1hr20min</td>
+                  <td>9802947654</td>
+                </tr>
+                <tr>
+                  <td>Electricity Post Damage</td>
+                  <td>Karamana</td>
+                  <td>30min</td>
+                  <td>98723527204</td>
+                </tr>
+              
+            <tr>
+              <td>Voltage fluctuation</td>
+              <td>Kazhakootam</td>
+              <td>4hr</td>
+              <td>980498320</td>
+            </tr>
+            
+          </table>
+</body>
+</html>
